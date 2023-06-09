@@ -40,7 +40,7 @@ gem "jbuilder"
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 
 # Reduces boot times through caching; required in config/boot.rb
-gem "bootsnap", require: false
+gem "bootsnap", require: true
 
 # Use Sass to process CSS
 # gem "sassc-rails"
@@ -74,6 +74,3 @@ end
 
 gem "faker", "~> 2.23"
 
-gem "cssbundling-rails", "~> 1.1"
-
-gem "jsbundling-rails", "~> 1.0"
